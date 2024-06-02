@@ -104,6 +104,22 @@ main{
     font-weight: 400;
 }
 
+/* feature section start */
+.feature_section{
+    display: flex;
+}
+.feature_content{
+    padding: 30px;
+}
+.feature_portion{
+    padding: 20px;
+}
+.feature_section_image{
+    width: 708px;
+    height: 982px;
+    margin-left: 60px;
+}
+
 
 /* facts style part */
 .facts_title{
@@ -170,6 +186,21 @@ main{
 .sponsor_container img{
     width: 165px;
 }
+.footer_part{
+    height: 4.4rem;
+    width: 62.5rem;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 30px auto;
+    border: solid 2px #FF900E;
+}
+.footer_text{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
 
 
 
@@ -225,9 +256,14 @@ main{
     .sponsor_container img{
         margin-top: 25px;
     }
-
     /* main end */
-
+    .footer_part{
+        width : 100%;
+    }
+    .footer_text{
+        font-size: 15px;
+        padding: 8px;  
+    }
 }
 
 /* medium devices */
@@ -262,4 +298,11 @@ main{
         margin-top: 25px;
     }
     /* main end */
+    .footer_part{
+        width : 100%;
+    }
+    .footer_text{
+        font-size: 15px;
+        padding: 8px;  
+    }
 }
